@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "NODE_ENV=production recluster-cli index.js 8",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +12,7 @@
   "dependencies": {
     "express": "^4.15.3",
     "pug": "^2.0.0-rc.1",
+    "recluster-cli": "^1.0.0",
     "vash": "^0.12.2"
   }
 }
