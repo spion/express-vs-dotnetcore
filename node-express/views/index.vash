@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@model.title</title>
+</head>
+<body>
+    <h2>@model.title</h2>
+    
+    <p>@model.time</p>
+</body>
+</html>
+
+
+
+
